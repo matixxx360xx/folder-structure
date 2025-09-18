@@ -17,6 +17,15 @@ dodajFolder(){
 
 dodajPliki(){
     const ilePlikow = parseInt(prompt('Ile plików chcesz utworzyć?'));
+        if(!this.nazwaFolderu){
+              this.dodajFolder();
+        }else{
+            const zmienFolder = prompt(`Obecny folder to "${this.nazwaFolderu}". Czy chcesz użyć innego folderu? (t/n): `);
+            if(zmienFolder.toLowerCase() === 't'){
+                    this.dodajFolder();
+        }
+        }
+ 
     for(let i = 0; i < ilePlikow; i++){
         let nazwaPliku = prompt('Dodaj nazwe pliku: ');
         try{
