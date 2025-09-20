@@ -22,18 +22,18 @@ Dzięki niemu możesz szybko wygenerować strukturę folderów i plików.
    npm install
    node index.js
 
-##Jak używać
+## Jak używać
 Po uruchomieniu zobaczysz menu:
   1. Dodaj folder 
   2. Dodaj pliki 
   3. Wyjście
-z utw
+
 ## Przykład działania
 1. Dodaj folder 
 2. Dodaj pliki 
 3. Wyjscie
-Wybierz opcje: 1
-Dodaj nazwe folderu: test
+   Wybierz opcje: 1
+   Dodaj nazwe folderu: test
 
 1. Dodaj folder 
 2. Dodaj pliki 
@@ -50,7 +50,7 @@ test
  ├── index.html
  └── style.css
 ```
-##Usprawnienia w toku
+## Usprawnienia w toku
   Obsługa tworzenia wielu poziomów podfolderów od razu
   Możliwość wpisywania treści do plików podczas tworzenia
   Obsługa bardziej rozbudowanych struktur folderów
